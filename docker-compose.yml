@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+ myapp1:
+  build: .
+  image: anaeywebapp:v1
+  container_name: appeycon1
+  ports:
+   - "1357:80"
